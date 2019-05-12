@@ -1,0 +1,94 @@
+/*---------------------------------------------------------------
+    Button onClick, burada parantez önemli, git checkout
+---------------------------------------------------------------*/
+Tıklandığında enterButtonClicked adında bir metot çağrısı yapılacak.
+<button onclick="enterButtonClicked()">Tıkla Gardaş Bana</button>
+
+/*---------------------------------------------------------------
+    <script src="index.js"></script>
+---------------------------------------------------------------*/
+Bu şekilde src index.js dosyasını inderecek tarayıcı ve client
+tarafta index.js sanki oradaymış gibi isim aramaya dahil edilecek.
+
+
+Bu durumda aşağıdaki metotlara çağrı yapılabilecek. Tıklandığında
+çağrılacak metot bulunmuş olucak teknik olarak.
+
+n = 0;
+
+function enterButtonClicked()
+{
+    // get the element from built-in document object 
+    var element = document.getElementById("nkez");
+    element.innerHTML = n++ + "kez tıkladınız";    
+}
+
+
+/*---------------------------------------------------------------
+    innerHTML kullanımına örnek, aslında bir string property imiş.
+---------------------------------------------------------------*/
+element.innerHTML = ++n + " kez tıkladınız";    
+
+
+/*---------------------------------------------------------------
+    JavaScript dili dom yani html elementlerine erişebilen bir teknoloji
+---------------------------------------------------------------*/
+n = 0;
+
+function enterButtonClicked()
+{
+    // get the element from built-in document object 
+    var element = document.getElementById("nkez");
+    element.innerHTML = ++n + " kez tıkladınız";    
+}
+
+Yukarıda ki örnekte document.getElementById("YOUR-ID") metodu ile
+sanki built-in document nesnesinin get metotlarına çağrı yapılıyor.
+
+Ver bana id'yi verim sana o elementi dercesine bir api.
+element var ise eğer elinde h2, div, spam artık bu elementin dom'da nasıl
+gösterileceğine karar verebilirsin.
+
+Örneğin innerHTML'ini değiştirebilirsin.
+/*---------------------------------------------------------------
+    Diyelimki bootstrap ui lib usage want
+---------------------------------------------------------------*/
+starter template alman yeterlidir lib kullan istediğin gibi.
+artık adamlar ne yazmışsa onu kullan.
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
